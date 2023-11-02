@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
   fd1 = open(argv[1], openFlag, filePerm);
   if(fd1 == -1)
   {
-    perror("error opening the file\n");
+    perror("error opening the first open file\n");
   }
 
   //ssize_t read(int fd, void *buf, size_t count);
@@ -38,14 +38,14 @@ int main(int argc, char *argv[])
   fd2 = open(argv[2], openFlag, filePerm);
   if(fd2 == -1)
   {
-    perror("error opening the file\n");
+    perror("error opening the second open file\n");
   }
 
   //int creat(const char *pathname, mode_t mode);
   createFile = creat(argv[3],filePerm);
   if(createFile == -1)
   {
-    perror("error opening the file\n");
+    perror("error opening the create file\n");
   }
 
   //ssize_t write(int fd, const void *buf, size_t count);
