@@ -21,6 +21,6 @@ int main(int argc, char *argv[])
   new_dir = mkdir(argv[1],filePerm);
   if(new_dir == -1)
   {
-    perror("error the opening a directory");
+    perror("error the opening a directory permission denied");
   }
 }
