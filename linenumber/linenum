@@ -1,0 +1,10 @@
+10 step 8 : murugan@HP:~/Github/Microcontroller-PIC$ git config --global user.name "murugan2678"
+20
+30 Microcontroller-PIC
+40 
+50
+60 murugan@HP:~/Github/Microcontroller-PIC$ git commit -m "8x8_led_matrix"
+70 Password for 'https://murugan2678@github.com': 
+80 done
+90 create file
+100 filenames
