@@ -23,7 +23,4 @@ int main(int argc, char *argv[])
   {
     perror("error the opening a directory");
   }
-
-  //close a file descriptor
-  close(new_dir);
 }
