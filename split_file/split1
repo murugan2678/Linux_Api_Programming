@@ -1,0 +1,50 @@
+1 github command how to uploade the folder and file
+2 
+3 step 1 : murugan@HP:~$ sudo apt install git
+4 step 2 : murugan@HP:~$ cd Github/
+5 step 3 : murugan@HP:~/Github$ cd Microcontroller-PIC/
+6 step 4 : murugan@HP:~/Github$ git clone https://github.com/murugan2678/Microcontroller-PIC.git
+7 step 5 : murugan@HP:~/Github/Microcontroller-PIC$ git add led_matrix_8x8/
+8 step 6 : murugan@HP:~/Github/Microcontroller-PIC$ git commit -m "8x8_led_matrix"
+9 step 7 : murugan@HP:~/Github/Microcontroller-PIC$ git config --global user.email "muruganm2947@gmail.com"
+10 step 8 : murugan@HP:~/Github/Microcontroller-PIC$ git config --global user.name "murugan2678"
+11 step 9 : murugan@HP:~/Github/Microcontroller-PIC$ git commit -m "8x8_led_matrix"
+12 step 10 : murugan@HP:~/Github/Microcontroller-PIC$ git push origin
+13
+14
+15 murugan@HP:~$ cd Github/
+16 murugan@HP:~/Github$ 
+17 murugan@HP:~/Github$ 
+18
+19 murugan@HP:~/Github$ git clone https://github.com/murugan2678/Microcontroller-PIC.git
+20
+21 Cloning into 'Microcontroller-PIC'...
+22 remote: Enumerating objects: 121, done.
+23 remote: Counting objects: 100% (121/121), done.
+24 remote: Compressing objects: 100% (93/93), done.
+25 remote: Total 121 (delta 51), reused 57 (delta 18), pack-reused 0
+26 Receiving objects: 100% (121/121), 35.40 KiB | 1.77 MiB/s, done.
+27 Resolving deltas: 100% (51/51), done.
+28 
+29 murugan@HP:~/Github$ ls
+30 Microcontroller-PIC
+31 
+32 murugan@HP:~/Github$ cd Microcontroller-PIC/
+33 
+34 murugan@HP:~/Github/Microcontroller-PIC$ ls
+35 '7seg anode and cathode'  'led blinking'   'stepper motor'
+36  gsm                       led_matrix_8x8  'stop watch and seconds'
+37 'I2C protocol'             README.md       'switch button'
+38  keypad                    sensor          'timer 1-16bit controller'
+39  lcd                      'spi protocol'    uart
+40 
+41 murugan@HP:~/Github/Microcontroller-PIC$ git add led_matrix_8x8/
+42
+43 murugan@HP:~/Github/Microcontroller-PIC$ git commit -m "8x8_led_matrix"
+44 files
+45 Author identity unknown
+46 text
+47 *** Please tell me who you are.
+48
+49 Run
+50
