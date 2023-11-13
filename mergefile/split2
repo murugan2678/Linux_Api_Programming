@@ -1,0 +1,50 @@
+51  git config --global user.email "you@example.com"
+52  git config --global user.name "Your Name"
+53 murugan@HP:~/Github/Microcontroller-PIC$ git commit -m "8x8_led_matrix"
+54 to set your account's default identity.
+55 Omit --global to set the identity only in this repository.
+56
+57 murugan@HP:~/Github/Microcontroller-PIC$ git config --global user.email "muruganm2947@gmail.com"
+58 murugan@HP:~/Github/Microcontroller-PIC$ git config --global user.name "murugan2678"
+59
+60 murugan@HP:~/Github/Microcontroller-PIC$ git commit -m "8x8_led_matrix"
+61
+62 [main 7b11f3a] 8x8_led_matrix
+63  2 files changed, 178 insertions(+)
+64 create mode 100644 led_matrix_8x8/digit_0to9_8x8_led.c
+65 create mode 100644 led_matrix_8x8/digit_0to9_character_AtoZ.c
+66 
+67 murugan@HP:~/Github/Microcontroller-PIC$ git push origin
+68
+69 Username for 'https://github.com': murugan2678
+70 Password for 'https://murugan2678@github.com': 
+71 Enumerating objects: 6, done.
+72 Counting objects: 100% (6/6), done.
+73 Delta compression using up to 4 threads
+74 Compressing objects: 100% (5/5), done.
+75 Writing objects: 100% (5/5), 2.17 KiB | 2.17 MiB/s, done.
+76 Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+77 remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+78 To https://github.com/murugan2678/Microcontroller-PIC.git
+79 7986ea6..7b11f3a  main -> main
+80 done
+81
+82 murugan@HP:~/Github/Microcontroller-PIC$ ls
+83
+84 '7seg anode and cathode'   keypad          led_matrix_8x8  'spi protocol'            'switch button'
+85 gsm                       lcd             README.md       'stepper motor'           'timer 1-16bit controller'
+86 'I2C protocol'            'led blinking'   sensor          'stop watch and seconds'   uart
+87 murugan@HP:~/Github/Microcontroller-PIC$
+88 files
+89 commit
+90 create file
+91 button
+92 text file
+93 command
+94 numbers
+95 values
+96 variables
+97 file text
+98 number of files
+99 total
+100 filenames

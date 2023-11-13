@@ -1,0 +1,100 @@
+1 github command how to uploade the folder and file
+2 
+3 step 1 : murugan@HP:~$ sudo apt install git
+4 step 2 : murugan@HP:~$ cd Github/
+5 step 3 : murugan@HP:~/Github$ cd Microcontroller-PIC/
+6 step 4 : murugan@HP:~/Github$ git clone https://github.com/murugan2678/Microcontroller-PIC.git
+7 step 5 : murugan@HP:~/Github/Microcontroller-PIC$ git add led_matrix_8x8/
+8 step 6 : murugan@HP:~/Github/Microcontroller-PIC$ git commit -m "8x8_led_matrix"
+9 step 7 : murugan@HP:~/Github/Microcontroller-PIC$ git config --global user.email "muruganm2947@gmail.com"
+10 step 8 : murugan@HP:~/Github/Microcontroller-PIC$ git config --global user.name "murugan2678"
+11 step 9 : murugan@HP:~/Github/Microcontroller-PIC$ git commit -m "8x8_led_matrix"
+12 step 10 : murugan@HP:~/Github/Microcontroller-PIC$ git push origin
+13
+14
+15 murugan@HP:~$ cd Github/
+16 murugan@HP:~/Github$ 
+17 murugan@HP:~/Github$ 
+18
+19 murugan@HP:~/Github$ git clone https://github.com/murugan2678/Microcontroller-PIC.git
+20
+21 Cloning into 'Microcontroller-PIC'...
+22 remote: Enumerating objects: 121, done.
+23 remote: Counting objects: 100% (121/121), done.
+24 remote: Compressing objects: 100% (93/93), done.
+25 remote: Total 121 (delta 51), reused 57 (delta 18), pack-reused 0
+26 Receiving objects: 100% (121/121), 35.40 KiB | 1.77 MiB/s, done.
+27 Resolving deltas: 100% (51/51), done.
+28 
+29 murugan@HP:~/Github$ ls
+30 Microcontroller-PIC
+31 
+32 murugan@HP:~/Github$ cd Microcontroller-PIC/
+33 
+34 murugan@HP:~/Github/Microcontroller-PIC$ ls
+35 '7seg anode and cathode'  'led blinking'   'stepper motor'
+36  gsm                       led_matrix_8x8  'stop watch and seconds'
+37 'I2C protocol'             README.md       'switch button'
+38  keypad                    sensor          'timer 1-16bit controller'
+39  lcd                      'spi protocol'    uart
+40 
+41 murugan@HP:~/Github/Microcontroller-PIC$ git add led_matrix_8x8/
+42
+43 murugan@HP:~/Github/Microcontroller-PIC$ git commit -m "8x8_led_matrix"
+44 files
+45 Author identity unknown
+46 text
+47 *** Please tell me who you are.
+48
+49 Run
+50
+51  git config --global user.email "you@example.com"
+52  git config --global user.name "Your Name"
+53 murugan@HP:~/Github/Microcontroller-PIC$ git commit -m "8x8_led_matrix"
+54 to set your account's default identity.
+55 Omit --global to set the identity only in this repository.
+56
+57 murugan@HP:~/Github/Microcontroller-PIC$ git config --global user.email "muruganm2947@gmail.com"
+58 murugan@HP:~/Github/Microcontroller-PIC$ git config --global user.name "murugan2678"
+59
+60 murugan@HP:~/Github/Microcontroller-PIC$ git commit -m "8x8_led_matrix"
+61
+62 [main 7b11f3a] 8x8_led_matrix
+63  2 files changed, 178 insertions(+)
+64 create mode 100644 led_matrix_8x8/digit_0to9_8x8_led.c
+65 create mode 100644 led_matrix_8x8/digit_0to9_character_AtoZ.c
+66 
+67 murugan@HP:~/Github/Microcontroller-PIC$ git push origin
+68
+69 Username for 'https://github.com': murugan2678
+70 Password for 'https://murugan2678@github.com': 
+71 Enumerating objects: 6, done.
+72 Counting objects: 100% (6/6), done.
+73 Delta compression using up to 4 threads
+74 Compressing objects: 100% (5/5), done.
+75 Writing objects: 100% (5/5), 2.17 KiB | 2.17 MiB/s, done.
+76 Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+77 remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+78 To https://github.com/murugan2678/Microcontroller-PIC.git
+79 7986ea6..7b11f3a  main -> main
+80 done
+81
+82 murugan@HP:~/Github/Microcontroller-PIC$ ls
+83
+84 '7seg anode and cathode'   keypad          led_matrix_8x8  'spi protocol'            'switch button'
+85 gsm                       lcd             README.md       'stepper motor'           'timer 1-16bit controller'
+86 'I2C protocol'            'led blinking'   sensor          'stop watch and seconds'   uart
+87 murugan@HP:~/Github/Microcontroller-PIC$
+88 files
+89 commit
+90 create file
+91 button
+92 text file
+93 command
+94 numbers
+95 values
+96 variables
+97 file text
+98 number of files
+99 total
+100 filenames
