@@ -3,7 +3,7 @@
 /************************************************************/
 /* Author          : Murugan M                              */
 /* Date            : 22/11/2023                             */
-/* file name       : char_line                              */
+/* file name       : words_line                              */
 /* Description     : using system call for open()and read() */
 /************************************************************/
 
