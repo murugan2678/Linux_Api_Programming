@@ -1,4 +1,4 @@
-/* write a program for new `directory create */
+/* write a program for new directory create */
 
 //header file
 #include <unistd.h>
