@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
   //new directory create,new directory giving a pathname and fileperm 
   //int mkdir(const char *pathname, mode_t mode);
-  new_dir = mkdir(argv[1],filePerm);
+  new_dir = mkdir(argv[1], filePerm);
   if(new_dir == -1)
   {
     perror("error the opening a directory permission denied");
