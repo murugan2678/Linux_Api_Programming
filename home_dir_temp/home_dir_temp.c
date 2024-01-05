@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
   if(input_fd1 == -1)
   {
     ret_val = errno;
-    perror("open : error opening the input_fd");
+    perror("open : error opening the input_fd1");
     goto close_exit;
   }
 
@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
   if(output_fd1 == -1)
   {
     ret_val = errno;
-    perror("opne : error opening the output_fd");
+    perror("opne : error opening the output_fd1");
     goto close_file;
   }
  
@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
   if(readFile1 == -1)
   {
     ret_val = errno;
-    perror("read : error opening the readFile");
+    perror("read : error opening the readFile1");
     goto close_2files;
   }
 
@@ -94,7 +94,7 @@ int main(int argc, char *argv[])
   if(writeFile1 == -1)
   {
     ret_val = errno;
-    perror("write : error opening the writeFile");
+    perror("write : error opening the writeFile1");
     goto close_2files;
   }
   
@@ -139,7 +139,7 @@ int main(int argc, char *argv[])
     perror("write : error opening the writeFile2");
     goto close_4files;
   }
-  exit(EXIT_SUCCESS);
+  exit(EXIT_SUCCESS); 
   //step12 : close the file descriptor
 close_4files:
   close(output_fd2);
